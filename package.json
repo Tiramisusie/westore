@@ -1,0 +1,33 @@
+{
+  "name": "westore",
+  "version": "1.0.0",
+  "description": "the most tiniest but powerful framework for wechat miniprogram",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --require babel-register --require babel-polyfill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dntzhang/westore.git"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dntzhang/westore/issues"
+  },
+  "homepage": "https://github.com/dntzhang/westore#readme"
+}
